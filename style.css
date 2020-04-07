@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textarea_content {
+  font-size: 24px;
+  font-family: 'Lato', serif, sans-serif;
+  padding: 15px;
+  resize: none;
+}
+
+textarea {
+  resize: none;
+  height: 170px;
+  width: 570px;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid rgb(71, 64, 170);
+  width: 760px;
+  height: 200px;
+  padding: 10px 5px;
+  float: left;
+  border-radius: 17px;
+  background-color: rgb(67, 62, 139);
+  background: linear-gradient(-45deg, rgb(124, 108, 189), rgba(39, 72, 218, 0.877));
+}
+
+.k-key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  font-family: 'Lato', serif, sans-serif;
+  font-size: 22px;
+  border: 1px ridge rgb(124, 108, 189);
+  text-align: justify;
+}
+
+.k-keysp {
+  width:500px;
+}
+.k-key:hover {
+  cursor: pointer;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  width: 100%;
+}
+
+.active {
+  border-radius: 20px;
+  opacity: 0.7;
+  color: #01faed; 
+}
+.activec {
+  border-radius: 20px;
+  opacity: 0.7;
+  color: #01faed; 
+}
+.space {
+  width: 300px;
+}
+.special {
+  width: 120px;
+  background-color: #4871e8;
+}
+
+.language {
+  font-size: 20px;
+  font-family: 'Lato', serif, sans-serif;
+}
